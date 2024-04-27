@@ -1,0 +1,150 @@
+/* Write your code here. */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  .bg-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .heading {
+    color: #0f172a;
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding: 20px;
+  }
+  .bg-container div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .small {
+    height: 75px;
+    width: 75px;
+    background-color: #fbbf24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .medium {
+    height: 150px;
+    width: 150px;
+    background-color: #38bdf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .Large {
+    height: 210px;
+    width: 210px;
+    background-color: #ec4899;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .heading1 {
+    font-family: 'Bree serif';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .heading2 {
+    font-family: 'Bree serif';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .heading3 {
+    font-family: 'Bree serif';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .heading {
+    color: #0f172a;
+    font-size: 35px;
+    font-family: 'Roboto';
+    padding: 20px;
+  }
+  .bg-container div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .small {
+    height: 100px;
+    width: 100px;
+    background-color: #fbbf24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .medium {
+    height: 200px;
+    width: 200px;
+    background-color: #38bdf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .Large {
+    height: 250px;
+    width: 250px;
+    background-color: #ec4899;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .heading1 {
+    font-family: 'Bree serif';
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  .heading2 {
+    font-family: 'Bree serif';
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  .heading3 {
+    font-family: 'Bree serif';
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+  }
+}
